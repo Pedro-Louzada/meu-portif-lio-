@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html{
+
+    scroll-behavior: smooth; /*desliza a tela nas interações*/
+
+}
+
+body{
+
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    width: 100vw;
+}
+
+
+header{
+
+    height: calc(100vh - 100px);  
+    margin: auto;
+    background: no-repeat center/cover url('assets/header-iamge.jpg');
+        
+}
+
+.menu-menu {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+
+    margin: 30px;
+    position: relative;
+}
+
+.menu > .menu-trigger {
+
+    padding: 0.5em;
+    width: 40px;
+    display:inline-block;
+    place-items: center;
+    border: 1px solid #ccc;
+    border-radius:  0.3em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.menu > .menu-trigger img {
+
+    width: 35px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.menu > .menu-menu {
+
+    background-color:#efefef;
+    position: absolute;
+    border-radius:  0.3em;
+    box-shadow: 3px 3px 8   px rgba(0, 0, 0, 0.2);
+    border: 1px solid #CCC;
+    margin-top: 0.3em;
+}
+
+.menu > .menu-menu li {
+
+    padding: 0.2em 0.4em;
+}
+
+
+#header-section{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+     
+    
+}
+
+#header-section hr {
+
+    background-color: #fff;
+    width: 50px;
+    border: solid 2px;
+}
+
+#header-section > ul {
+
+    margin: 30px;
+}
+
+#header-social-media {
+
+    margin: 30px;
+
+}
+
+#header-social-media img {
+
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+#header-social-media img + img {
+
+    margin-left: 30px;
+}
+
+#intro-section {
+
+    display: flex;
+    width: 860px;
+    margin: 175px auto 0;
+    flex-wrap: wrap;
+
+}
+
+#intro-section h1 {
+
+    width: 100%;
+    line-height: 60px;
+    margin-bottom: 40px;
+
+}
+
+#intro-section p{
+
+    width: 100%;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 38px;
+
+}
+
+h1 {
+
+    color: #fff;
+    font-size: 4em;
+}
+
+
+#intro-section > a button {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width: 350px;
+    height: 65px;
+    border: 0.1px solid;
+    border-radius: 25px;
+    padding: 8px 16px;
+    color: #fff;
+
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#my-projects-section {
+
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 0;
+    
+}
+
+#my-projects-section section {
+
+    width: 860px;
+    margin: 0 auto;
+}
+
+#my-projects-section h2 {
+
+    color: black;
+    width: 860px;
+    margin: 0 auto;
+    font-size: 28px;
+    
+}
+
+#projects-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 21px;
+
+}
+
+#projects-container div {
+
+    background-color: #799E96;
+    width: 49%;
+    margin: 0 0 20px 0;
+    padding-bottom: 16px;
+    border-radius: 16px;
+}
+
+
+#projects-container div h3 {
+
+    font-size: 26px;
+    font-weight: bold;
+    margin: 14px 0 9px 23px;
+}
+
+
+#projects-container div p {
+
+    margin-left: 23px;
+    font-size: 16px;
+}
+
+
+#projects-container div div {
+
+    width: 100%;
+    height: 230px;
+    border-radius: 8px;
+    background-image: url('assets/image-project.jpg');
+    background-size: cover;
+}
+
+#experiences-container{
+
+    width: 1080px;
+    margin: 55px auto;
+}
+
+#experiences-container section {
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#experiences-container h2 {
+
+    margin: 0 0 15px 110px;
+    font-size: 28px;
+}
+
+#experiences-items {
+
+    padding: 20px 20px 27px 20px;
+    display: flex;
+    width: 480px;
+    background: #799E96 ;
+    margin-bottom: 37px;
+    border-radius: 48px;
+    flex-wrap: wrap;
+}
+
+#experiences-items img{
+
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#experiences-items ul {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+#experiences-items ul li {
+
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+
+}
+
+#experiences-items h3 {
+    
+    margin: auto 0 0 13px;
+    font-size: 36px;
+}
+
+#experiences-items p {
+
+    font-size: 16px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+#experiences-items span {
+
+    width: 100%;
+    font-size: 22px;
+    margin: 26px 0;
+}
+
+#skills-container {
+
+    width: 100%; 
+
+}
+
+#skills-container  h2 {
+
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+#skills-container div {
+
+    width: 100%;
+    background: #799E96;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skills-container div img {
+
+    height: 75px;
+}
+
+
+#skills-container div img + img {
+
+    margin-left: 23px;
+}
+
+footer {
+
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 31px;
+    border-top: solid 1px #E0E0E0;
+}
+
+footer p {
+
+    text-align: center;
+    width: 100%;
+    margin-top: 26px;
+}
+
+footer img + img {
+
+    margin-left: 35px;
+}
